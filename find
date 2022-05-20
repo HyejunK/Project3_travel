@@ -1,0 +1,122 @@
+<div class="top_lay">
+    <div class="lef_lay">
+<p style="font-size: 30px;">ID찾기</p><br>
+        회원 정보에 등록한 이메일로 찾기<br><br>
+        <div style="display: flex">
+            <div>
+        성함<br>
+        e-mail
+            </div>
+        <div style="margin-left: 73px;">
+        <input type="text"><br>
+        <input type="text">
+        </div>
+        </div>
+        <p>본인 명의 HP 번호로 찾기</p><br>
+        <div style="display: flex">
+            <div>
+                성함<br>
+                Phone number
+            </div>
+            <div style="margin-left: 10px;">
+                <input type="text"><br>
+                <input type="text">
+            </div>
+        </div>
+        <input type="submit"value="확인" class="input_sub">
+    </div>
+
+    <div class="rig_lay">
+        <p style="font-size: 30px;">PW찾기</p><br>
+
+        <div style="display: flex; margin-bottom: 159px;">
+            <div>
+                ID<br>
+                성함
+            </div>
+            <div style="margin-left: 73px;">
+                <input type="text"><br>
+                <input type="text">
+            </div>
+        </div>
+        <input type="submit"value="확인" class="input_sub">
+    </div>
+
+</div>
+<div class="bot_lay">
+<p style="font-size: 30px; margin-top: 50px;">
+    당신의 ID(or PW)는<br>
+    @@@ 입니다.
+</p>
+    <div style="display: flex; justify-content: center; margin-top: 100px;">
+        <div class="log_box">
+            <input id="log_button" type="button" value="Login" onClick="javascript:window.scrollTo(0,0)" />
+        </div>
+        <div class="log_box">
+            <a href="/find2"\>비밀번호 찾기</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+body{
+        background-color: #385A45;
+
+        height: 100vh;
+        color:white;
+
+        height: 100vh;
+        color:white;
+        }
+        .top_lay{
+        display: flex;
+        height: 50vh;
+        border-bottom: 1px solid white;
+        }
+        .top_lay > div{
+        flex: 1;
+        position: relative;
+        }
+        .bot_lay{
+        align: center;
+        text-align: center;
+        height: 55vh;
+        }
+        .lef_lay{
+        position: absolute;
+        left: 53%;
+        top: 55%;
+        transform: translate(-50%,-50%);
+        }
+        .rig_lay{
+        position: absolute;
+        left: 33%;
+        top: 55%;
+        transform: translate(-50%,-50%);
+        }
+        .input_sub{
+        margin-left: 120px;
+        margin-top: 30px;
+        width: 80px;
+        height: 30px;
+        }
+        .log_box{
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid white;
+        }
+        #log_button{
+        font-size: 17px;
+        color: white;
+        background-color: #385A45;
+        border: none;
+        }
