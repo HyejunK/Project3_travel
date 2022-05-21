@@ -10,10 +10,10 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #385a45;
-    padding: 8px 12px
+    padding: 8px 12px;
     position: fixed;
-    top: o;
-         /*오작동시 position: fixed;과 top: 0;을 젤 먼저 수정해보자*/
+    top: 0;
+         /*position: fixed;과 top: 0; 부분은 네비게이션을 모든 페이지에서 최상단에 고정하기 */
 }
 
 
@@ -57,7 +57,7 @@ a{
 .navbar_mpMenu > li:hover > .navbar_subMenu{
     display: block;
 }
-/*아니 이거 왜 안 되냐????????*/
+/*여기는 다시 확인 중*/
 
 
 .navbar_toggleBn{
