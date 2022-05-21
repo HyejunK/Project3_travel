@@ -77,7 +77,7 @@
                     <li><a href="">Liked Contents</a></li>
                     <li><a href="">Reservations</a></li>
                     <li><a href="">Reviews</a></li>
-            </ul>
+                </ul>
             <li><a href="">Log In | Join Us</a></li>
             <!--선생님께서는 상단 메뉴에 샵 주인 페이지를 추가하길 바라셨는데 이에 대한 결정 필요-->
         </ul>
