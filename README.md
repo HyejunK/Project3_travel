@@ -24,6 +24,7 @@
             padding: 8px 12px
             position: fixed;
             top: 0; /*position과 top은 네비게이션바를 최상단에 고정하기 위함, 불필요하면 두 개는 삭제*/
+            width: 100%;
         }
         .navbar_logo{color: #a7c299; left: 50px;}
         .navbar_menu{
