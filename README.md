@@ -64,21 +64,21 @@
                 <a href="#">    <!--hotel 상세검색 페이지로 이동-->
                     <h3>Hotel</h3>
                     <img src="https://cdn.pixabay.com/photo/2018/02/24/17/17/window-3178666_960_720.jpg">
-                    <p>Present yourself <br>the best moment</p>                  
+                    <p>Present yourself the best moment</p>                  
                 </a>
             </li>
             <li>
                 <a href="#">    <!--Culture 상세검색페이지로 이동-->
                     <img src="https://cdn.pixabay.com/photo/2021/11/08/23/29/nature-6780354_960_720.jpg">
                         <h3>Culture</h3>
-                        <p>Time to meet <br>another challenge <br>in your life</p>
+                        <p>Time to meet another challenge <br>in your life</p>
                     </a>
             </li>
             <li>
                 <a href="#">    <!--Mypage에 리뷰칸으로 링크 넣기-->
                     <img src="https://cdn.pixabay.com/photo/2020/02/19/14/45/man-4862367_960_720.jpg">
                         <h3>Review</h3>
-                        <p>We are ready <br>to hear your stories</p>
+                        <p>We are ready to hear your stories</p>
                     </a>
             </li>
         </ul>
