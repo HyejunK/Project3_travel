@@ -55,7 +55,7 @@ a{text-decoration: none; color: #dbd5d3;}
     .navbar_menu.active{display: flex;}
 }
 
-header{ background-color: #385a45;s}  /*padding: 10px 30px; 을 넣는게 나은지 아닌지 고민*/
+header{ background-color: #385a45;}  /*padding: 10px 30px; 을 넣는게 나은지 아닌지 고민*/
 header .intro_bg img{width: 100%; height: 600px;}
 .introSen{ 
     color: #dbd5d3; 
@@ -85,7 +85,7 @@ p{
     position: relative; 
     top: 30; 
     left: 30;
-    bottom
+
 
 
 }
@@ -113,7 +113,7 @@ p{
         position: absolute;
     }
     h3{position:absolute; top:140px}
-    p{font-size: 24px; display: hidden;}        /*여기 왜 안 없어져 ㅋㅋㅋ*/
+    p{font-size: 24px; display: hidden;}  
     .main>h1{
         font-size: 24px;
         padding-top: 30px;
