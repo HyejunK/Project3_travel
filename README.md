@@ -54,10 +54,10 @@
                     <input type="text" id="datepicker" name="Customer_birth">
                 </div>
                 <div>
-                    <label name="Customer_address">주소</label>
-                    <input id="member_post"  type="text" placeholder="Zip Code" readonly onclick="findAddr()">
-                    <input id="member_addr" type="text" placeholder="Address" readonly> <br>
-                    <input type="text" placeholder="Detailed Address">
+                    <label for="member_post">주소</label>       <!--name이 for로 수정된 것 고지-->
+                    <input name="#" id="member_post"  type="text" placeholder="Zip Code" readonly onclick="findAddr()"> <!--여기에 우편번호용 칼럼명이 있어야함-->
+                    <input name="Customer_address" id="member_address" type="text" placeholder="Address" readonly> <br>
+                    <input name="Customer_address"  type="text" placeholder="Detailed Address">
                 </div>
                 <p><a href="#"><input type="submit" class="joinBtn" value="Sign in"></a></p>      <!--로그인 된 상태의 메인 페이지로 이동하게 a태그 안 링크작성-->
             </div>
