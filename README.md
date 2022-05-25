@@ -52,7 +52,7 @@
                 <textarea name="#"></textarea>
             </div>
             <div class="shopplusBtn">
-                <input type="submit" value="가게 등록"/>
+                <a href="#"><input type="submit" value="Registration"/></a>     <!--가게정보페이지? 혹은 로그인된 메인페이지 둘 중 하나 편한 걸로 링크 연결-->
             </div>
         </div>
         <script>
