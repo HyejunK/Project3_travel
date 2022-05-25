@@ -59,7 +59,7 @@
                     <input id="member_addr" type="text" placeholder="Address" readonly> <br>
                     <input type="text" placeholder="Detailed Address">
                 </div>
-                <p><input type="submit" class="joinBtn" value="회원가입"></p>
+                <p><a href="#"><input type="submit" class="joinBtn" value="회원가입"></a></p>      <!--로그인 된 상태의 메인 페이지로 이동하게 a태그 안 링크작성-->
             </div>
             <script>
                 function findAddr(){
