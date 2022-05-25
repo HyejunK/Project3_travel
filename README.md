@@ -57,8 +57,8 @@
                 <input id="member_addr" type="text" placeholder="Address" readonly> <br>
                 <input type="text" placeholder="Detailed Address">
             </div>
-            <span><input type="submit" class="fixBtn" value="변경"></span>
-            <span><input type="submit" class="fixBtn" value="탈퇴"><a href="#"></span>
+                <span><a href="#"><input type="submit" class="fixBtn" value="Change"></a></span>      <!--로그인 된 메인 페이지로 이동-->
+                <span><a href="#"><input type="submit" class="fixBtn" value="Sign out"></a></span>      <!--로그아웃된 메인 페이지로 이동-->
                 <!--탈퇴버튼 누르면 DB에서 정보삭제-->
         </div>
         <script>
