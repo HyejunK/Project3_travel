@@ -14,7 +14,7 @@ a{text-decoration: none; color: #dbd5d3;}
     align-items: center;
     background-color: #385a45;
     padding: 8px 12px;
-    top: 0; /*position과 top은 네비게이션바를 최상단에 고정하기 위함, 불필요하면 두 개는 삭제*/    
+    top: 0; 
 }
 .navbar_logo{color: #a7c299; left: 50px; font-size: 24px;}
 .navbar_menu{
